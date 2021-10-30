@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Mascoteria</title>
+</head>
+
+<body>
+
+  <!--Barra de navegacion-->
+
+  <div class="header">
+
+      <div class="contenedor">
+
+          <div class="barra-navegacion">
+
+              <div class="logo">
+                  <img src="imagenes/logo.png" width="125px">
+              </div>
+
+              <nav>
+                  <ul>
+
+                      <li><a href="./index.html">Inicio</a></li>
+                      <li><a href="./productos.html">Productos</a></li>
+                      <li><a href="./usuario.html">Mi cuenta</a></li>
+
+                  </ul>
+
+              </nav>
+
+              <a href="./carrito.html"><img src="imagenes/carrito.png" width="30px" height="30px"></a>
+
+          </div>
+
+
+      </div>
+     
+    </nav>
+  
+    <!--FORMULARIO-->
+
+    <form action="" name="formulario" >
+      <p class="h3"> DATOS DE CONTACTO </p>
+
+      <div class="row g-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" required> 
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido">
+        </div>
+      </div>
+      <br>
+      <div class="col-12"  >
+        <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
+      </div>
+      <br>
+      <div class="row g-3">
+        
+        <div class="col">
+          <input type="number" class="form-control" placeholder="C.P." aria-label="codigo">
+        </div>
+       
+      </div>
+      <br>
+      <div class="row g-2">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Teléfono de Contacto" aria-label="Telefono" id=celular>
+        </div>
+        
+       
+      </div>
+      <br>
+      <div class="col">
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="e-mail" >
+      
+        </div>
+        
+      </div>
+      <br>
+
+      <div class="col-12">
+       
+        
+        <button class="btn btn-info" type="submit" value="enviar" >Enviar</button>
+     
+        
+    </div>
+  
+    </form>
+  </main>
+  <footer>
+    <div class="iconos">
+      
+      <box-icon name='registered' ></box-icon> 
+    
+      <hr>
+            <p class="copyright">2021 | Nazareno Fusco <br> TODOS LOS DERECHOS RESERVADOS</p>
+
+    </div>
+  </footer>
+
+  <script src="formulariovalidar.js"></script>
+</body>
+</html>
